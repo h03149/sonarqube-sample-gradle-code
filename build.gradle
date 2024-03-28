@@ -21,7 +21,7 @@ properties {
 	property "sonar.host.url", "http://http//172.30.1.96:9001/"
 	property "sonar.login", "squ_821bb3a2f6030db1728000d197998b36d9079b8b"
 	property "sonar.projectName" , "aidt_master"
-	property "sonar.projectKey" , "aidt_master \"
+	property "sonar.projectKey" , "aidt_master \\"
 }
 }
 
