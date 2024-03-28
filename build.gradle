@@ -18,7 +18,8 @@ plugins {
 sonarqube {
 
 properties {
-
+	property "sonar.host.url", "http://http//172.30.1.96:9001/"
+	property "sonar.login", "sqp_c4e75350d1c9335ceda140459b896ac0fb59455c"
     property "sonar.projectName" , "java :: Code coverage demo"
 	property "sonar.projectKey" , "org.sonarqube:JacocoCodeCoverage"
 	property "sonar.jacoco.reportPath" , "${project.buildDir}/jacoco/test.exec"
